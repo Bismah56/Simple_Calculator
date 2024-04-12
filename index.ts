@@ -13,12 +13,12 @@ const answer = await inquirer.prompt([
     {
         type: "number",
         name: "firstnumber",
-        message: "Enter first number:"
+        message: "Enter your first number:"
     },
     {
         type: "number",
         name: "secondnumber",
-        message: "Enter second number:"
+        message: "Enter your second number:"
     },
 ]);
 let val1 = answer.firstnumber;
